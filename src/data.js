@@ -1,39 +1,39 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Periodic Tables",
+    subtitle: "A reservation management app.",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+    image: "./project1.png",
+    link: "https://periodic-tables-client-bmxe.onrender.com/dashboard",
   },
   {
-    title: "React Tracks",
+    title: "WeLoveMovies",
     subtitle: "React and Python",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+    image: "./project2.png",
+    link: "https://thinkful-welovemovies-client.onrender.com/",
   },
   {
-    title: "DevChat",
+    title: "My Little Library",
     subtitle: "React and Firebase",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+    image: "./project3.png",
+    link: "https://s3ngstrom.github.io/thinkful-library-project/",
   },
   {
-    title: "Epic Todo App",
+    title: "Flashcard-o-matic",
     subtitle: "React Hooks",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+    image: "./project4.png",
+    link: "https://flashcard-omatic.onrender.com/",
   },
 ];
 
-export const testimonials = [
+export const jobs = [
   {
     quote:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",

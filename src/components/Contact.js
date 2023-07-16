@@ -61,7 +61,7 @@ export default function Contact() {
             src="./chicago.png"
             style={{
               maxHeight: "400px",
-              maxWidth: "300px",
+              maxWidth: "200px",
               display: "block",
               margin: "0 auto",
               paddingTop: "50px",

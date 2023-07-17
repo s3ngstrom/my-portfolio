@@ -15,6 +15,14 @@ export default function Testimonials() {
             <div className="p-4 md:w-1/2 w-full">
               <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
                 <TerminalIcon className="text-pink-600 block w-8 text-gray-500 mb-4" />
+                <span className="flex-grow flex flex-col pl-4">
+                    <span className="title-font font-medium text-white text-pink-600">
+                      {job.name}
+                    </span>
+                    <span className="text-gray-500 text-sm uppercase">
+                      {job.company}
+                    </span>
+                  </span>
                 <p className="leading-relaxed mb-6">{job.quote}</p>
                 <div className="inline-flex items-center">
                   <img
@@ -22,14 +30,6 @@ export default function Testimonials() {
                     src={job.image}
                     className="w-12 rounded-full flex-shrink-0 object-cover object-center"
                   />
-                  <span className="flex-grow flex flex-col pl-4">
-                    <span className="title-font font-medium text-white">
-                      {job.name}
-                    </span>
-                    <span className="text-gray-500 text-sm uppercase">
-                      {job.company}
-                    </span>
-                  </span>
                 </div>
               </div>
             </div>

@@ -19,12 +19,21 @@ export default function About() {
               Stefanie
             </span>
             .
-            <br className="lg:inline-block" /> I want to build accessible, visuably appealing apps.
+            <br className="lg:inline-block" /> I want to build accessible,
+            visuably appealing apps.
           </h1>
           <p className="mb-8 leading-relaxed">
             I'm a June 2023 Bootcamp grad with years of prior experience in the
-            Chicago fintech world, eager to parlay that experience into making
-            a meaningful impact in my next role.
+            Chicago fintech world, eager to parlay my experience into making a
+            meaningful impact in my next role.
+            <br />
+            More than anything, I'm looking for a company committed to
+            mentorship and learning opportunities for developers with
+            "non-traditional" backgrounds, like myself. I'm committed to
+            learning and growing -  
+          <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500"> 
+          &nbsp;let's do that together!
+          </span>
           </p>
           <div className="flex justify-center">
             <button

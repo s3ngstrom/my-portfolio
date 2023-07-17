@@ -37,44 +37,40 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a className="text-indigo-400 leading-relaxed hover:text-indigo-200">sge.engstrom@email.com</a>
+              <a className="text-purple-300 leading-relaxed hover:underline hover:text-purple-100">sge.engstrom@email.com</a>
             </div>
             <div>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 LINKS
               </h2>
-              <a href="https://github.com/s3ngstrom" className="text-indigo-400 leading-relaxed hover:text-indigo-200">
+              <a href="https://github.com/s3ngstrom" className="text-purple-300 leading-relaxed hover:underline hover:text-purple-100">
                 Github
               </a>
               <p />
               <a
                 href="https://linkedin.com/in/stefanie-engstrom"
-                className="text-indigo-400 leading-relaxed hover:text-indigo-200"
+                className="text-purple-300 leading-relaxed hover:underline hover:text-purple-100"
               >
                 LinkedIn
               </a>
             </div>
             <div className="text-center">
-          <img
-            className="object-cover object-center rounded"
-            alt="The Chicago Flag"
-            src="./chicago.png"
-            style={{
-              maxHeight: "400px",
-              maxWidth: "200px",
-              display: "block",
-              margin: "0 auto",
-              paddingTop: "50px",
-            }}
-          />
-        </div>
+              <img
+                className="object-cover object-center rounded"
+                alt="The Chicago Flag"
+                src="./chicago.png"
+                style={{
+                  maxHeight: "400px",
+                  maxWidth: "200px",
+                  display: "block",
+                  margin: "0 auto",
+                  paddingTop: "50px",
+                }}
+              />
+            </div>
           </div>
-          
-          <form
-            netlify
-            name="contact"
-            className="bg-gray-900 rounded-lg p-10"
-          >
+
+          <form netlify name="contact" className="bg-gray-900 rounded-lg p-10">
             <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
               Hiring?
             </h2>
@@ -82,7 +78,7 @@ export default function Contact() {
               I'm based in Chicago and open to hybrid roles in the area, as well as remote roles anywhere.
             </p>
             <div className="relative mb-4">
-              <label htmlFor="name" className="leading-7 text-sm text-gray-400">
+              <label htmlFor="name" className="leading-7 text-sm text-gray-300">
                 Name
               </label>
               <input
@@ -93,7 +89,7 @@ export default function Contact() {
               />
             </div>
             <div className="relative mb-4">
-              <label htmlFor="email" className="leading-7 text-sm text-gray-400">
+              <label htmlFor="email" className="leading-7 text-sm text-gray-300">
                 Email
               </label>
               <input
@@ -104,7 +100,7 @@ export default function Contact() {
               />
             </div>
             <div className="relative mb-4">
-              <label htmlFor="message" className="leading-7 text-sm text-gray-400">
+              <label htmlFor="message" className="leading-7 text-sm text-gray-300">
                 Message
               </label>
               <textarea
@@ -115,7 +111,7 @@ export default function Contact() {
             </div>
             <button
               type="submit"
-              className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              className="text-white bg-purple-800 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 rounded text-lg"
             >
               Submit
             </button>

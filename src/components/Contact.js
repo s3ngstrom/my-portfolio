@@ -84,6 +84,7 @@ export default function Contact() {
             className="bg-gray-900 rounded-lg p-10"
             onSubmit={handleSubmit}
           >
+            <input type="hidden" name="form-name" value="contact" />
             <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
               Hiring?
             </h2>

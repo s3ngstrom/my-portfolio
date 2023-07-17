@@ -4,8 +4,10 @@ import { jobs } from "../data";
 
 export default function Experience() {
   return (
-    <section id="experience">
-      <div className="container px-5 py-10 mx-auto text-center bg-gradient-to-b from-indigo-900 to-purple-600">
+    <section id="experience"
+    className="text-white bg-gradient-to-b from-indigo-900 to-purple-600 body-font"
+    >
+      <div className="container px-5 py-10 mx-auto text-center">
         <UsersIcon className="text-pink-600 w-10 inline-block mb-4" />
         <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-12">
           Relevant Experience

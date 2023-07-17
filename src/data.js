@@ -1,33 +1,33 @@
 export const projects = [
   {
     title: "Periodic Tables",
-    subtitle: "A reservation management app.",
+    subtitle: "Full-stack Capstone",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "My full-stack capstone project, a restaurant reservation system called Periodic Tables, is optimized for larger screens and designed to meet the requirements of restaurant staff managing a busy restaurant.",
     image: "./project1.png",
     link: "https://periodic-tables-client-bmxe.onrender.com/dashboard",
   },
   {
     title: "WeLoveMovies",
-    subtitle: "React and Python",
+    subtitle: "Backend Capstone",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "This required me to build an API from scratch using query builder Knex and PostgreSQL. I deployed and connected it to the client to ensure a smooth and correctly-coded user experience.",
     image: "./project2.png",
     link: "https://thinkful-welovemovies-client.onrender.com/",
   },
   {
     title: "My Little Library",
-    subtitle: "React and Firebase",
+    subtitle: "Javascript and Bootstrap",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "One of my early tasks was to design an app for a Little Library, organized by the community and for the community. All implemented features were requested as part of the project; I returned to add styling in Bootstrap later on.",
     image: "./project3.png",
     link: "https://s3ngstrom.github.io/thinkful-library-project/",
   },
   {
     title: "Flashcard-o-matic",
-    subtitle: "React Hooks",
+    subtitle: "React",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "One of our first React assignments was to create a flashcards app that users could add custom card decks to in order to study whatever they'd like. In the future I'll be updating this to build functionality and add a database for storage.",
     image: "./project4.png",
     link: "https://flashcard-omatic.onrender.com/",
   },

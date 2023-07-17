@@ -53,8 +53,10 @@ export const jobs = [
 export const skills = [
   "JavaScript",
   "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  "Node.js",
+  "Express",
+  "PostgreSQL",
+  "HTML/CSS",
+  "RESTful API",
+  "VScode"
 ];

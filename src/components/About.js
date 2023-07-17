@@ -19,7 +19,7 @@ export default function About() {
               Stefanie
             </span>
             .
-            <br className="lg:inline-block" /> I love to build accessible, visuably appealing apps.
+            <br className="lg:inline-block" /> I want to build accessible, visuably appealing apps.
           </h1>
           <p className="mb-8 leading-relaxed">
             I'm a June 2023 Bootcamp grad with years of prior experience in the

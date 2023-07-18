@@ -13,7 +13,7 @@ export default function Footer() {
           <img
             className="object-cover object-center rounded"
             alt="JavaScript"
-            src="./javascript.png"
+            src="./img/javascript.png"
             style={{
               maxWidth: "30px",
               display: "block",
@@ -29,7 +29,7 @@ export default function Footer() {
           <img
             className="object-cover object-center rounded"
             alt="React"
-            src="./logo192.png"
+            src="./img/logo192.png"
             style={{
               maxWidth: "30px",
               display: "block",
@@ -45,7 +45,7 @@ export default function Footer() {
           <img
             className="object-cover object-center rounded"
             alt="Tailwind CSS"
-            src="./tailwind.png"
+            src="./img/tailwind.png"
             style={{
               maxWidth: "30px",
               display: "block",

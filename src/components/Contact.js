@@ -92,7 +92,7 @@ export default function Contact() {
         <img
           className="object-cover object-center rounded"
           alt="The Chicago Flag"
-          src="./chicago.png"
+          src="./img/chicago.png"
           style={{
             maxWidth: "100px",
             display: "block",

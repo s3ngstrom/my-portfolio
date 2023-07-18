@@ -31,6 +31,12 @@ export default function Contact() {
       {/* Left Column */}
       <div className="bg-gray-900 rounded-lg overflow-hidden p-10 text-center">
         <div className="mb-4">
+        <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
+              Are you hiring?
+            </h2>
+            <p>I'm based in Chicago and seeking hybrid roles locally, and remote roles anywhere.</p>
+            <p>Connect with me or send me an email!</p>
+            <br />
           <h2 className="title-font font-semibold text-white tracking-widest text-xs">
             LOCATION
           </h2>

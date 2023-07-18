@@ -54,7 +54,7 @@ export default function About() {
           <img
             className="object-cover object-center rounded"
             alt="Pixel self-portrait of Stefanie"
-            src="./img/pixel.png"
+            src="./img/pixelme.png"
           />
         </div>
       </div>

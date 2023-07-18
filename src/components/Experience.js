@@ -17,14 +17,15 @@ export default function Experience() {
           In addition to my recent bootcamp at Thinkful, I have years of recent
           experience in the world of Chicago fintech, and have been a central
           player on the technology teams at various companies since 2016.
-          <br />
-          Looking for more info? Connect with me on{" "}
-          <a
-            href="https://linkedin.com/in/stefanie-engstrom"
-            className="text-purple-300 leading-relaxed hover:underline hover:text-purple-100"
-          >
-            LinkedIn!
-          </a>
+          <p className="font-bold">
+            Looking for more info? Connect with me on{" "}
+            <a
+              href="https://linkedin.com/in/stefanie-engstrom"
+              className="text-purple-300 leading-relaxed hover:underline hover:text-purple-100"
+            >
+              LinkedIn!
+            </a>
+          </p>
         </p>
         <div className="flex flex-wrap m-4">
           {jobs.map((job) => (

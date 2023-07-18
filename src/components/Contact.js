@@ -32,8 +32,11 @@ export default function Contact() {
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Are you hiring?
           </h2>
-          <p>I'm based in Chicago and seeking hybrid/remote roles locally, and remote roles anywhere.</p>
-          <p>Connect with me or send me an email!</p>
+          <p>
+            I'm based in Chicago and seeking hybrid/remote roles locally, and
+            remote roles anywhere.
+          </p>
+          <p className="font-bold">Connect with me or send me an email!</p>
         </div>
 
         {/* Three Columns */}
@@ -91,8 +94,7 @@ export default function Contact() {
           alt="The Chicago Flag"
           src="./chicago.png"
           style={{
-            maxHeight: "400px",
-            maxWidth: "200px",
+            maxWidth: "100px",
             display: "block",
             margin: "0 auto",
           }}

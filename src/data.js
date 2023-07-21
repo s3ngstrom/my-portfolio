@@ -55,7 +55,7 @@ export const jobs = [
   {
     description:
       "Designed and executed pilot program for hardware refresh/replacement, issuing new hardware to 200+ users. Created remote onboarding package for new users onboarded outside of the Chicago area, as well as scheduled and serviced regular office hours to monitor remote deploy issues and receive user feedback.",
-    description2: "Provided comprehensive review of on-call team adoption and usage at Amount, ultimately splitting the existing environment and providing recommendations to business teams on how to use it effectively.",
+    description2: "Provided comprehensive review of on-call team adoption and usage at Avant, ultimately splitting the existing environment and providing recommendations to business teams on how to utilize it effectively.",
     image: "./img/avant.jpeg",
     title: "IT Analyst",
     company: "Avant LLC",

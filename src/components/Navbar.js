@@ -24,7 +24,7 @@ export default function Navbar() {
             onClick={() => scrollToSection("projects")}
             className="mr-5 hover:text-pink-500 hover:underline focus:outline-none"
           >
-            Project
+            Projects
           </button>
           <button
             onClick={() => scrollToSection("skills")}

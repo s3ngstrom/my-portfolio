@@ -30,10 +30,10 @@ export default function About() {
             More than anything, I'm looking for a company committed to
             mentorship and learning opportunities for developers with
             "non-traditional" backgrounds, like myself. I'm committed to
-            learning and growing -  
-          <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500"> 
-          &nbsp;let's do that together!
-          </span>
+            learning and growing -
+            <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500">
+              &nbsp;let's do that together!
+            </span>
           </p>
           <div className="flex justify-center">
             <button

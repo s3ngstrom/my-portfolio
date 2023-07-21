@@ -33,7 +33,7 @@ export default function Navbar() {
             Skills
           </button>
           <button
-            onClick={() => scrollToSection("testimonials")}
+            onClick={() => scrollToSection("experience")}
             className="mr-5 hover:text-pink-500 hover:underline focus:outline-none"
           >
             Experience

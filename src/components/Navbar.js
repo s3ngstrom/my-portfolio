@@ -38,14 +38,15 @@ export default function Navbar() {
           >
             Experience
           </button>
-        </nav>
-        <button
+           <button
           onClick={() => scrollToSection("contact")}
-          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-pink-700 rounded text-base mt-4 md:mt-0"
+          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-pink-700 rounded text-base"
         >
           Hire Me
           <ArrowRightIcon className="w-4 h-4 ml-1" />
         </button>
+        </nav>
+       
       </div>
     </header>
   );

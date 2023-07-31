@@ -13,28 +13,28 @@ export default function Navbar() {
   return (
     <header className="bg-gray-800 md:sticky top-0 z-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-      <button
+        <button
           onClick={() => scrollToSection("about")}
-          className="title-font hover:text-pink-500 hover:underline font-medium text-white mb-4 md:mb-0 ml-3 text-xl focus:outline-none"
+          className="title-font hover:text-pink-500 hover:underline font-medium text-white mb-4 md:mb-0 ml-3 text-xl focus:outline-none flex-shrink-0"
         >
           Stefanie Engstrom
         </button>
-        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center">
+        <nav className="md:flex md:items-center md:w-auto md:ml-auto flex flex-wrap md:ml-4">
           <button
             onClick={() => scrollToSection("projects")}
-            className="mr-5 hover:text-pink-500 hover:underline focus:outline-none"
+            className="mr-5 hover:text-pink-500 hover:underline focus:outline-none whitespace-nowrap"
           >
             Projects
           </button>
           <button
             onClick={() => scrollToSection("skills")}
-            className="mr-5 hover:text-pink-500 hover:underline focus:outline-none"
+            className="mr-5 hover:text-pink-500 hover:underline focus:outline-none whitespace-nowrap"
           >
             Skills
           </button>
           <button
             onClick={() => scrollToSection("experience")}
-            className="mr-5 hover:text-pink-500 hover:underline focus:outline-none"
+            className="mr-5 hover:text-pink-500 hover:underline focus:outline-none whitespace-nowrap"
           >
             Experience
           </button>
